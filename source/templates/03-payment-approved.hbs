@@ -1,0 +1,178 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:v="urn:schemas-microsoft-com:vml">
+<!-- partial:partials/html-head.hbs -->
+<!-- partial -->
+
+<body>
+  <table id="body-table" width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td align="center" valign="top">
+        <table class="w-100 mw6-5 mv4-ns bg-white" width="100%" align="center" border="0" cellpadding="0"
+          cellspacing="0">
+          <!-- Header -->
+          <!-- partial:partials/header.hbs -->
+          <!-- partial -->
+          <tr>
+            <td style="text-align: center;" class="pa4">
+              <img style="width: auto;" class="w-100"
+                src="http://estagioacct.vteximg.com.br/arquivos/et-pagamento-aprovado-brahma.png" />
+            </td>
+          </tr>
+          <!-- Intro message -->
+          <tr style="display: flex; align-items: center;">
+            <td style="padding-right: 1rem !important" class="ph4">
+              <img src="http://estagioacct.vteximg.com.br/arquivos/et-cerveja-brahma.png" alt="cerveja">
+            </td>
+            <td>
+              <h3 style="color: #A38E63"> ((i18n.order.thanks)), {{clientProfileData.firstName}}!</h3>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 1rem; padding-left: 2rem !important; display: block">
+              <h4 style="color: #0062AC; font-size: 16px; font-weight: 500;">PEDIDO {{orderId}}</h4>
+            </td>
+
+            <td style="padding-top: 0; padding-left: 2rem !important; display: block">
+              <p style="color: #0062AC; font-weight: 500;">Realizado em {{formatDateTime creationDate}}</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <p>((i18n.order.your)) <strong>((i18n.payment.approved))</strong> ((i18n.order.withSuccess))
+                ((i18n.order.receiveEmail)) <strong>((i18n.order.confirmAvailability))</strong>
+                ((i18n.order.endIntroMessage))
+              <p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <p>
+                ((i18n.order.notSure))
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <p>
+                <strong>((i18n.order.approvedTime))</strong> ((i18n.order.endApprovedTimeMessage))
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <p><strong>((i18n.order.forSafety))</strong>, ((i18n.order.requesting))
+                <strong>((i18n.order.returnableProducts)) </strong>((i18n.order.endSafetyMessage))
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <button style="width: 100%;
+                      border-radius: 5px;
+                      height: 40px; 
+                      border: none; 
+                      background-color: #0062AC; 
+                      color: #fff;">((i18n.order.myOrdersButton))
+              </button>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left: 2rem !important">
+              <p style="color:#555555">
+                ((i18n.order.regards)), <br>
+                ((i18n.order.team))
+              </p>
+            </td>
+          </tr>
+
+          <!-- partial:partials/order-summary.hbs -->
+          <!-- partial -->
+
+          <tr style="display: inline;margin-left: 7rem;">
+            <td>
+              <img src="http://estagioacct.vteximg.com.br/arquivos/union-brahma.png" alt="">
+            </td>
+          </tr>
+          <tr
+            style="display: flex;flex-direction: column;align-items: start;margin-top: -3.5rem;margin-left: 13rem; width: 50%;">
+            <td style="color: #0062AC; font-weight: 700; font-size: 18px">LOJA RESPONSÁVEL</td>
+            <td style="color: #555555; font-weight: 700; font-size: 18px; margin-top: 0.5rem">CHOPP BRAHMA EXPRESS MOEMA
+            </td>
+          </tr>
+
+          <tr style="display: flex; flex-direction: column; margin-left: 7rem; margin-top: 2rem; margin-bottom: 4rem">
+            <td style="color: #0062AC; font-weight: 700;">Endereço:</td>
+            <td style="color: #555555; display: flex; width: 65%;">Al. dos Nhambiquara, 966 - Indianápolis - São
+              Paulo/SP 04090-001</td>
+            <td style="color: #0062AC; font-weight: 700; margin-top: 1rem">Contato da loja:</td>
+            <td style="color: #555555">Telefone: (XX) 0000-0000</td>
+            <td style="color: #0062AC; font-weight: 700; margin-top: 1rem">Horário de atendimento:</td>
+            <td style="color: #555555"><strong>Segunda à Sexta:</strong> das 9:30 às 18:00</td>
+            <td style="color: #555555; margin-top: 0.2rem"><strong>Sábado:</strong> das 8:30 às 17:30</td>
+            <td style="color: #555555; margin-top: 0.2rem"><strong>Domingos e Feriados:</strong> Fechado</td>
+          </tr>
+
+          <tr style="display: flex; flex-direction: column; background-color: #F5F1E1;">
+            <td style="color: #0062AC; font-weight: 700; margin-left: 3rem; margin-top: 3rem;">
+              <img src="http://estagioacct.vteximg.com.br/arquivos/logo-brahma-big.png" alt="">
+            </td>
+            <td style="color: #0062AC; font-weight: 700; font-size: 18px; margin-top: 2rem; margin-left: 3rem;">
+              REDES SOCIAIS
+            </td>
+            <td style="margin-top: 1rem; margin-left: 3rem;">
+              <img src="http://estagioacct.vteximg.com.br/arquivos/sociais_brahma.png" alt="">
+            </td>
+            <td style="color: #0062AC; font-weight: 700; font-size: 18px; margin-top: 2rem; margin-left: 3rem;">
+              SELO DE CONFIANÇA
+            </td>
+            <td style="margin-top: 1rem; margin-left: 3rem;">
+              <img style="margin-bottom: 5rem;" src="http://estagioacct.vteximg.com.br/arquivos/selo_qualidade_brahma.png" alt="">
+            </td>
+          </tr>
+
+          <tr
+            style="display: flex; margin-left: 18rem; flex-direction: column; margin-top: -25rem; margin-bottom: 3rem;">
+            <td style="color: #0062AC; font-weight: 700; font-size: 20px;">FALE CONOSCO</td>
+            <td style="color: #555555; margin-top: 1rem">atendimento@choppbrahmaexpress.com.br</td>
+            <td style="color: #555555; font-weight: 700; margin-top: 1rem">Atendimento:</td>
+            <td style="color: #555555; margin-top: 0.3rem">Segunda a Sexta das 9h às 18h</td>
+            <td style="color: #555555; margin-top: 0.3rem">Sábados das 10h às 17h</td>
+            <td style="color: #555555; font-weight: 700; margin-top: 1rem">Assistência técnica (atendimento por
+              telefone):</td>
+            <td style="color: #555555; margin-top: 0.3rem">Domingo a Domingo das 9h às 23h</td>
+            <td style="color: #0062AC; font-weight: 700; font-size: 20px; margin-top: 1rem">
+              <img style="margin-right: 1rem" src="http://estagioacct.vteximg.com.br/arquivos/telefone_brahma.png"
+                alt="">
+              0800 888 1021
+            </td>
+          </tr>
+
+          <tr style="padding-top: 5rem;
+    display: block;">
+            <td style="width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #DE2A27;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;">
+              PROIBIDO PARA MENORES DE 18 ANOS BEBA COM MODERAÇÃO.
+            </td>
+          </tr>
+
+
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>

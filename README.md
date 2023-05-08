@@ -1,3 +1,3 @@
 # Email Framework Exercise
 
-## Reprodução do template de aprovação de pedido Brahma
+## Reprodução do template de pagamento aprovado Brahma

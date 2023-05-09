@@ -129,6 +129,16 @@
               Entre 09:00 e 18:00
             </td>
           </tr>
+          
+          {{!-- validar se a cidade é Atibaia --}}
+          {{#eq shippingData.address.city "AA"}}
+          <tr>
+            <td style="padding-bottom: 2rem;">
+              <img src="https://www.atibaiasp.com.br/wp-content/uploads/2020/04/bandeira.png" alt="">
+            </td>
+          </tr>
+          {{/eq}}
+
 
           <tr style="display: inline;margin-left: 7rem;">
             <td>
@@ -157,7 +167,7 @@
           <!-- partial:partials/footer.hbs -->
           <!-- partial -->
 
-          
+
 
 
         </table>

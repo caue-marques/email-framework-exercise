@@ -1,6 +1,13 @@
 <tr class="w-100">
   <td>
     <table class="header w100">
+
+      {{!-- Validar se o último nome é Priolli --}}
+      {{#eq clientProfileData.lastName "Priolli"}}
+      <tr>
+        <td colspan="12" style="height: 4px; background-color: #2CB34A"></td>
+      </tr>
+      {{/eq}}
       <tr align="center">
         <td class="tc">
           <img style="margin: 20px 0" src="http://estagioacct.vteximg.com.br/arquivos/et-logo-brahma.png" />

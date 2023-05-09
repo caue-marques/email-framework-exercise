@@ -24,7 +24,7 @@
           </tr>
           <!-- Intro message -->
           <tr style="display: flex; align-items: center;">
-            <td style="padding-right: 1rem !important" class="ph4">
+            <td style="padding-right: 1rem !important; padding-left: 0" class="ph4">
               <img src="http://estagioacct.vteximg.com.br/arquivos/et-cerveja-brahma.png" alt="cerveja">
             </td>
             <td>
@@ -32,17 +32,17 @@
             </td>
           </tr>
           <tr>
-            <td style="padding-top: 1rem; padding-left: 2rem !important; display: block">
+            <td style="padding-top: 1rem; display: block">
               <h4 style="color: #0062AC; font-size: 16px; font-weight: 500;">PEDIDO {{orderId}}</h4>
             </td>
 
-            <td style="padding-top: 0; padding-left: 2rem !important; display: block">
+            <td style="padding-top: 0; display: block">
               <p style="color: #0062AC; font-weight: 500;">Realizado em {{formatDateTime creationDate}}</p>
             </td>
           </tr>
 
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <p>((i18n.order.your)) <strong>((i18n.payment.approved))</strong> ((i18n.order.withSuccess))
                 ((i18n.order.receiveEmail)) <strong>((i18n.order.confirmAvailability))</strong>
                 ((i18n.order.endIntroMessage))
@@ -50,7 +50,7 @@
             </td>
           </tr>
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <p>
                 ((i18n.order.notSure))
               </p>
@@ -58,7 +58,7 @@
           </tr>
 
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <p>
                 <strong>((i18n.order.approvedTime))</strong> ((i18n.order.endApprovedTimeMessage))
               </p>
@@ -66,14 +66,14 @@
           </tr>
 
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <p><strong>((i18n.order.forSafety))</strong>, ((i18n.order.requesting))
                 <strong>((i18n.order.returnableProducts)) </strong>((i18n.order.endSafetyMessage))
               </p>
             </td>
           </tr>
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <button style="width: 100%;
                       border-radius: 5px;
                       height: 40px; 
@@ -85,7 +85,7 @@
           </tr>
 
           <tr>
-            <td style="padding-left: 2rem !important">
+            <td>
               <p style="color:#555555">
                 ((i18n.order.regards)), <br>
                 ((i18n.order.team))
@@ -95,6 +95,40 @@
 
           <!-- partial:partials/order-summary.hbs -->
           <!-- partial -->
+
+          <tr style="display: flex;
+    margin-left: 2rem;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;">
+            <td style="color: #0062AC; font-weight: 700; text-transform: uppercase; width:20%">
+              Forma de pagamento
+            </td>
+            <td style="color: #0062AC; font-weight: 700; text-transform: uppercase; width:20%; margin-left: -2rem;">
+              Endereço de entrega
+            </td>
+            <td style="color: #0062AC; font-weight: 700; text-transform: uppercase; width:20%;  margin-right: 2rem;">
+              Forma de entrega
+            </td>
+          </tr>
+
+          <tr style="display: flex;
+    margin-left: 2rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;">
+            <td style="width: 19% !important; color: #555555">
+              Boleto Bancário <strong>R$ 4.210,00</strong> à vista
+            </td>
+            <td style="width:25%; color: #555555">
+              Rua Laurem, 211
+              Moema - São Paulo/SP
+              CEP: 04521-003 - Brasil
+            </td>
+            <td style="width:25%; color: #555555">
+              Agendada, Sexta-feira
+              24 de julho de 2020
+              Entre 09:00 e 18:00
+            </td>
+          </tr>
 
           <tr style="display: inline;margin-left: 7rem;">
             <td>
@@ -120,53 +154,10 @@
             <td style="color: #555555; margin-top: 0.2rem"><strong>Domingos e Feriados:</strong> Fechado</td>
           </tr>
 
-          <tr style="display: flex; flex-direction: column; background-color: #F5F1E1;">
-            <td style="color: #0062AC; font-weight: 700; margin-left: 3rem; margin-top: 3rem;">
-              <img src="http://estagioacct.vteximg.com.br/arquivos/logo-brahma-big.png" alt="">
-            </td>
-            <td style="color: #0062AC; font-weight: 700; font-size: 18px; margin-top: 2rem; margin-left: 3rem;">
-              REDES SOCIAIS
-            </td>
-            <td style="margin-top: 1rem; margin-left: 3rem;">
-              <img src="http://estagioacct.vteximg.com.br/arquivos/sociais_brahma.png" alt="">
-            </td>
-            <td style="color: #0062AC; font-weight: 700; font-size: 18px; margin-top: 2rem; margin-left: 3rem;">
-              SELO DE CONFIANÇA
-            </td>
-            <td style="margin-top: 1rem; margin-left: 3rem;">
-              <img style="margin-bottom: 5rem;" src="http://estagioacct.vteximg.com.br/arquivos/selo_qualidade_brahma.png" alt="">
-            </td>
-          </tr>
+          <!-- partial:partials/footer.hbs -->
+          <!-- partial -->
 
-          <tr
-            style="display: flex; margin-left: 18rem; flex-direction: column; margin-top: -25rem; margin-bottom: 3rem;">
-            <td style="color: #0062AC; font-weight: 700; font-size: 20px;">FALE CONOSCO</td>
-            <td style="color: #555555; margin-top: 1rem">atendimento@choppbrahmaexpress.com.br</td>
-            <td style="color: #555555; font-weight: 700; margin-top: 1rem">Atendimento:</td>
-            <td style="color: #555555; margin-top: 0.3rem">Segunda a Sexta das 9h às 18h</td>
-            <td style="color: #555555; margin-top: 0.3rem">Sábados das 10h às 17h</td>
-            <td style="color: #555555; font-weight: 700; margin-top: 1rem">Assistência técnica (atendimento por
-              telefone):</td>
-            <td style="color: #555555; margin-top: 0.3rem">Domingo a Domingo das 9h às 23h</td>
-            <td style="color: #0062AC; font-weight: 700; font-size: 20px; margin-top: 1rem">
-              <img style="margin-right: 1rem" src="http://estagioacct.vteximg.com.br/arquivos/telefone_brahma.png"
-                alt="">
-              0800 888 1021
-            </td>
-          </tr>
-
-          <tr style="padding-top: 5rem;
-    display: block;">
-            <td style="width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #DE2A27;
-    color: white;
-    font-weight: 700;
-    padding: 1rem;">
-              PROIBIDO PARA MENORES DE 18 ANOS BEBA COM MODERAÇÃO.
-            </td>
-          </tr>
+          
 
 
         </table>

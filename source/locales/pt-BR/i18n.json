@@ -22,7 +22,8 @@
       "on": "em",
       "between": "entre",
       "and": "e"
-    }
+    },
+    "was": "foi"
   },
   "order": {
     "title": "Recebemos seu pedido,",
@@ -88,7 +89,9 @@
     "preparingShippingOneProduct": "Estamos providenciando a emissão da Nota Fiscal do seu pedido e o envio do seu produto.",
     "preparingShippingManyProducts": "Estamos providenciando a emissão da Nota Fiscal do seu pedido e o envio dos seus produtos.",
     "denied": "Pagamento Não Aprovado!",
-    "buttonDenied": "Pagamento Não Aprovado"
+    "buttonDenied": "Pagamento Não Aprovado",
+    "paymentMissed": "por falta de pagamento.",
+    "cancelled": "cancelado"
   },
   "invoice": {
     "invoiced": "Sua Nota Fiscal foi emitida",

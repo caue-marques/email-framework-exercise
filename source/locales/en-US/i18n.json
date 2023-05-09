@@ -22,7 +22,8 @@
       "on": "on",
       "between": "between",
       "and": "and"
-    }
+    },
+    "was": "was"
   },
   "order": {
     "title": "Thanks for your order,",
@@ -86,7 +87,9 @@
     "preparingShippingOneProduct": "We are providing the invoice for your order and shipping your product.",
     "preparingShippingManyProducts": "We are providing the invoice for your order and shipping your products.",
     "denied": "Pagamento não aprovado!",
-    "buttonDenied": "Pagamento Não Aprovado"
+    "buttonDenied": "Pagamento Não Aprovado",
+    "paymentMissed": "for non-payment.",
+    "cancelled": "has been cancelled"
   },
   "invoice": {
     "invoiced": "Your invoice has been issued",
